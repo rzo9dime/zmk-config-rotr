@@ -26,7 +26,7 @@
 		};
 		two {
 			//PREV | PLAY/PAUSE | NEXT
-			bindings = <&kp LEFT &lt 4 SPACE &kp RIGHT>;
+			bindings = <&kp K_SLEEP &lt 4 K_SLEEP &kp K_SLEEP>;
 			sensor-bindings = <&inc_dec_kp PG_UP PG_DN>;
 		};
 		three {
